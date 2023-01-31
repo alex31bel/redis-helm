@@ -1,0 +1,6 @@
+# Default Values for redis Helm Chart
+
+container:
+  image: bitnami/redis:latest
+  
+replicaCount: 4
